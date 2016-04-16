@@ -32,7 +32,7 @@ class App extends React.Component{
 	    return;
 	}
         $.ajax({
-          url: 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=372ef3a005d9b9df062b8240c326254d&photoset_id=72157631971715898&user_id=57933175@N08&format=json&per_page=21&page='+this.state.pageNum+'&extras=url_o,url_m,url_l,url_c',
+          url: 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=8da4e6a9f6f8214bbc93b077df0176b7&photoset_id=72157666653121380&user_id=140249202@N02&format=json&per_page=15&page='+this.state.pageNum+'&extras=url_m,url_l,url_c,url_o',
           dataType: 'jsonp',
           jsonpCallback: 'jsonFlickrApi',
           cache: false,
